@@ -1,0 +1,138 @@
+/* General container for todo items */
+.todo {
+    width: 600px;
+    min-height: 732px;
+    border-radius: 20px;
+    background-color: #69ade7; /* Background color */
+    margin: auto;
+    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+  }
+  
+  /* Centered To-Do List Header */
+  .todo-header {
+    margin-top: 84px;
+    color: #000000; /* Pink color for all headers */
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center; /* Center the To-Do List header */
+  }
+  
+  /* Remaining Tasks and Completed Tasks Headers */
+  .section-header {
+    color: #EF476F; /* Pink color for Remaining and Completed Tasks */
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left for section headers */
+  }
+  
+  /* Container for adding new tasks */
+  .todo-add {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    gap: 10px;
+  }
+  
+  /* Input field for new tasks */
+  .todo-input {
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  
+  /* Input field for reminders */
+  .todo-reminder {
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  
+  /* ADD button styling */
+  .todo-add-btn {
+    border-radius: 50px;
+    background-color: #EF476F; /* Matches the text color */
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* White text for contrast */
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /* Remaining and completed tasks section */
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  /* Styling for each todo item */
+  .todoitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD166; /* Task box color */
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Completed task styling */
+  .todoitems.completed {
+    background-color: #a0ffa5; /* Lighter yellow for completed tasks */
+  }
+  
+  .todoitems-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todoitems-text {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #EF476F; /* Text color */
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  /* Reminder text styling */
+  .reminder-text {
+    font-size: 14px;
+    color: #EF476F; /* Pink color for reminder */
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  /* Icon styling */
+  .todo-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .todo-icon:hover {
+    opacity: 0.8;
+  }
+  
